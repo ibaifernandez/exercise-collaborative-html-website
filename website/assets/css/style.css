@@ -1,3 +1,55 @@
-body{
-    background: #BDBDBD;
+body {
+    background: #FFF;
+    height:100%;
+}
+
+#main-headline {
+    font-size:4rem;
+    margin-top:-35%;
+    width:98%;
+}
+
+#secondary-headline {
+    font-size:3rem;
+    margin-top:-25%;
+    width:98%;
+}
+
+.bg-image {
+    background-image: url(/website/assets/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 1000px) {
+    #main-headline {
+        font-size:3rem;
+    }
+
+    #secondary-headline {
+        font-size:2rem;
+        margin-top:-25%;
+    }
+}
+
+@media (max-width: 800px) {
+    #main-headline {
+        font-size:2.5rem;
+    }
+
+    #secondary-headline {
+        font-size:1.5rem;
+        margin-top:-25%;
+    }
+}
+
+@media (max-width: 700px) {
+    #main-headline {
+        font-size:2rem;
+    }
+
+    #secondary-headline {
+        font-size:1.25rem;
+        margin-top:-25%;
+    }
 }
